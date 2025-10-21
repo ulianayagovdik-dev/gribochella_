@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Unbounded-black";
+    src: url("../Unbounded/Unbounded-Black.ttf") format(truetype);
+    font-weight: 900; font-style: normal;}
+
+ @font-face {
+   font-family: "Unbounded-Extrabold";
+    src: url("../Unbounded/Unbounded-ExtraBold.ttf") format(truetype);
+    font-weight: 800; font-style: normal;}
+
+    @font-face {
+   font-family: "Unbounded-bold";
+    src: url("../Unbounded/Unbounded-Bold.ttf") format(truetype);
+    font-weight: 700; font-style: normal;}
+
+  @font-face {
+   font-family: "Unbounded-medium";
+    src: url("../Unbounded/Unbounded-Medium.ttf") format(truetype);
+    font-weight: 500; font-style: normal;}
+
+    @font-face {
+   font-family: "Unbounded-regular";
+    src: url("../Unbounded/Unbounded-Regular.ttf") format(truetype);
+    font-weight: 400; font-style: normal;}
+    
+    @font-face {
+   font-family: "Unbounded-light";
+    src: url("../Unbounded/Unbounded-Light.ttf") format(truetype);
+    font-weight: 300; font-style: normal;}
+
+  @font-face {
+   font-family: "Unbounded-extralight";
+    src: url("../Unbounded/Unbounded-Light.ttf") format(truetype);
+    font-weight: 250; font-style: normal;}
+
+ @font-face {
+   font-family: "Anton_CS";
+    src: url("../Anton_SC/AntonSC-Regular.ttf") format(truetype);
+    font-weight: 400; font-style: normal;}
+
+@font-face {
+   font-family: "Inter";
+    src: url("../Inter/static/Inter_18pt-Regular.ttf") format(truetype);
+    font-weight: 400; font-style: normal;}
+
+@font-face {
+   font-family: "Oswald-regular";
+    src: url("../Oswald/static/Oswald-Regular.ttf") format(truetype);
+    font-weight: 400; font-style: normal;}
+
+    @font-face {
+   font-family: "Play_write_US_Trad";
+    src: url("../Playwrite_US_Trad/static/PlaywriteUSTrad-Regular.ttf") format(truetype);
+    font-weight: 400; font-style: normal;}

@@ -1,0 +1,91 @@
+body {
+    width: 1440px;
+    background-color: rgb(39, 39, 39);
+ }
+
+ .zagalovok {
+    font-family: "Unbounded-regular";
+    margin-right: 100px;
+    margin-left: 390px;
+    text-align: center;
+    white-space: nowrap;
+ }
+
+ .zigilovok {
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 400px;
+    color: #ffffff;
+ }
+
+.vodonie {
+    font-family: "Inter";
+    font-size: 30px;
+    text-align: center;
+}
+h2 {
+       font-family: "Unbounded-regular";
+    font-size: 70px;
+    text-align: center;
+    color:rgb(25, 204, 51);
+}
+.videnie {
+    width: 1440px;
+    position: relative;
+    color: #ffffff;
+    margin-top: 400px;
+    z-index: 1;
+    background-color: rgb(39, 39, 39);
+    margin-left: 180px;
+}
+
+.raboti {
+    position: sticky;
+    top: 15px;
+    margin-left: 820px ;
+    margin-top: 700px;
+    z-index: 0;
+}
+
+h3 {
+    font-family: "Oswald-regular";
+    color: #ffffff;
+    font-size: 50px;
+    margin-left: 620px;
+    margin-top: 400px;
+    margin-right: 300px;
+}
+
+.ot_spori{
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 770px;
+    margin-right: 200px;
+    font-family: "Inter";
+}
+
+/* .meow {
+    width: 1440px;
+    position: relative;
+    z-index: 1;
+    background-color: rgb(39, 39, 39);
+} */
+
+.shtuchki {
+    width: 92px;
+    height: 400px;
+}
+
+.img163 {
+    margin-left: 100px ;
+    width: 453px;
+    height: 535px;   
+}
+
+.img164 {
+    margin-left: 1150px;
+    margin-right: 100px;
+    width: 453px;
+    height: 535px;
+}
