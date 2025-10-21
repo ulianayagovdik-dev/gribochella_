@@ -1,7 +1,13 @@
 body {
     width: 1440px;
     background-color: rgb(39, 39, 39);
+    overflow-x: hidden;
  }
+
+.cverhu_class{
+    width: 100%;
+    margin-left: 100px;
+}
 
  .zagalovok {
     font-family: "Unbounded-regular";
@@ -24,7 +30,7 @@ body {
     text-align: center;
 }
 h2 {
-       font-family: "Unbounded-regular";
+    font-family: "Unbounded-regular";
     font-size: 70px;
     text-align: center;
     color:rgb(25, 204, 51);
@@ -88,4 +94,36 @@ h3 {
     margin-right: 100px;
     width: 453px;
     height: 535px;
+}
+
+.kartinki{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.first_section{
+    width: 100%;
+}
+
+.classforimg2 {
+    margin-left: 50px ;
+    margin-right: 180px;
+    width: 453px;
+    height: 535px;  
+}
+
+.classforimg1 { 
+
+    margin-right: 20px;
+    width: 453px;
+    height: 535px;
+}
+.kartinki2{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.second_section{
+    width: 100%;
+    margin-top: 300px;
 }
