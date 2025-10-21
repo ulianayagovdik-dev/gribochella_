@@ -1,21 +1,31 @@
-body {
-    width: 1440px;
+body {  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+
+    /* width: 1440px; */
     background-color: rgb(39, 39, 39);
     overflow-x: hidden;
  }
 
 .cverhu_class{
-    width: 100%;
-    margin-left: 100px;
+    display: flex;
+    justify-content: center
 }
 
  .zagalovok {
-    font-family: "Unbounded-regular";
-    margin-right: 100px;
-    margin-left: 390px;
-    text-align: center;
-    white-space: nowrap;
+display: flex;
+justify-content: center;
+align-items: center;      
+  width: 100%;
+  font-family: "Unbounded-regular";
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  background-color: rgb(39, 39, 39);
  }
+ 
+
 
  .zigilovok {
     margin-left: 250px;
@@ -84,21 +94,28 @@ h3 {
 }
 
 .img163 {
-    margin-left: 100px ;
+    margin: 0 ;
     width: 453px;
     height: 535px;   
 }
 
 .img164 {
-    margin-left: 1150px;
-    margin-right: 100px;
+    /* margin-left: 1150px;
+    margin-right: 100px; */
+    margin: 0;
     width: 453px;
     height: 535px;
 }
 
 .kartinki{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    gap: 335px;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+
 }
 
 .first_section{
