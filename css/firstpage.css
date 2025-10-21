@@ -54,17 +54,17 @@ h2 {
 }
 
 h3 {
-    font-family: "Oswald-regular";
+    font-family: "Unbounded-regular";
     color: #ffffff;
     font-size: 50px;
-    margin-left: 620px;
+    margin-left: 250px;
     margin-top: 400px;
-    margin-right: 300px;
+    text-align: center;
 }
 
 .ot_spori{
     color: #ffffff;
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 15px;
     margin-left: 770px;
     margin-right: 200px;
