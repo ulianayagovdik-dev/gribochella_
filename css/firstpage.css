@@ -9,11 +9,13 @@ body {  margin: 0;
  }
 
 .cverhu_class{
-    display: flex;
-    justify-content: center
+     display: flex;
+     justify-content: center;
+     margin-top: 50px;
 }
 
  .zagalovok {
+    margin-top: 250px;
 display: flex;
 justify-content: center;
 align-items: center;      
@@ -25,13 +27,20 @@ align-items: center;
   background-color: rgb(39, 39, 39);
  }
  
-
-
  .zigilovok {
-    margin-left: 250px;
-    margin-right: 250px;
-    margin-top: 400px;
+    /* margin-left: 250px;
+    margin-right: 250px; */
+    display: flex;
+justify-content: center;
+align-items: center;      
+    /* margin-top: 400px; */
     color: #ffffff;
+ }
+
+ .vectorr {
+    /* position: absolute; */
+    width: 110%;
+margin-top: -10000px;
  }
 
 .vodonie {
