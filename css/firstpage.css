@@ -2,11 +2,25 @@ body {  margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
-
     /* width: 1440px; */
     background-color: rgb(39, 39, 39);
     overflow-x: hidden;
  }
+
+ .procr {
+      position: sticky;
+    top: 15px;
+    margin-left: 48% ;
+    margin-top: -10%;
+    z-index: 0;
+ }
+.procr2 {
+        position: sticky;
+    top: 120px;
+    margin-left: 48% ;
+    margin-top: 9px;
+    z-index: 0;
+}
 
 .cverhu_class{
      display: flex;
@@ -15,11 +29,12 @@ body {  margin: 0;
 }
 
  .zagalovok {
+   position: relative;
+   z-index: -1;
     margin-top: 250px;
 display: flex;
 justify-content: center;
 align-items: center;      
-  width: 100%;
   font-family: "Unbounded-regular";
   font-size: 24px;
   color: #ffffff;
@@ -28,127 +43,302 @@ align-items: center;
  }
  
  .zigilovok {
-    /* margin-left: 250px;
-    margin-right: 250px; */
     display: flex;
 justify-content: center;
 align-items: center;      
-    /* margin-top: 400px; */
     color: #ffffff;
  }
-
+.two_v {
+  margin-top: -58%;
+}
  .vectorr {
-    /* position: absolute; */
-    width: 110%;
-margin-top: -10000px;
+    position: relative;
+    z-index: -1;
+    width: 105%;
  }
 
-.vodonie {
+ .vectorr2 {
+position: relative;
+z-index: 1;
+    width: 18%;
+    margin-top: -350px;
+ }
+
+.street {
+     position: relative;
+    z-index: 2;
+    margin-left: 7%;
+    margin-top: 400px;
+    width: 53%;
+}
+
+.p1{
+    width: 110%;
+    margin-top: -375px;
+}
+.p2 {
+margin-top: 25px;
+}
+
+.text_one {
+margin-left: 65%;
+/* margin-top: -455px; */
+   color: #ffffff;
+font-size: 24px;
+width: 30%;
+font-family: "Inter-Regular";
+}
+
+.text_two {
+      /* position: relative;
+    z-index: 2; */
+    margin-top: 450px;
+     /* display: flex;
+    justify-content: space-between; */
+    width: 100%;
+}
+.v1 {
+width: 1440px;
+position: relative;
+z-index: 1;
+background-color: rgb(39, 39, 39);
+
+}
+
+.h4 {
+    font-size: 56px;
+    font-family: "Unbounded-regular";
+    color: #ffffff;
+    text-align: center;
+    margin-left: 5%;
+}
+.h5 {
+      font-size: 56px;
+    font-family: "Unbounded-regular";
+    color: #39B81A;
+    margin-left: 70%;
+}
+
+.i1 {
+ margin-left: 100px;
+ margin-top: 200px;
+} 
+
+.h1 {
+    margin-left: 4%;
+    font-size: 30px;
+    font-family: "Inter";
+    color: #39B81A;
+}
+.p3 {
+    margin-top: 0.5%;
+ font-size: 22px;
+    font-family: "Inter";
+    color: #ffffff;
+}
+
+.text3 {
+ margin-top: -100px;
+margin-left: 6%;
+}
+
+.i2 {
+ margin-left: 63%;
+ margin-top: -705px;
+} 
+
+.h2 {
+    margin-left: 6.5%;
+    font-size: 30px;
+    font-family: "Inter";
+    color: #39B81A;
+}
+.p4 {
+    margin-top: 0.7%;
+ font-size: 22px;
+    font-family: "Inter";
+    color: #ffffff;
+}
+
+.text4 {
+ margin-top: -95px;
+margin-left: 67%;
+}
+
+.v3 {
+    margin-left: -13%;
     font-family: "Inter";
     font-size: 30px;
     text-align: center;
 }
-h2 {
-    font-family: "Unbounded-regular";
-    font-size: 70px;
-    text-align: center;
-    color:rgb(25, 204, 51);
-}
-.videnie {
+
+.v2 {
     width: 1440px;
     position: relative;
     color: #ffffff;
     margin-top: 400px;
     z-index: 1;
     background-color: rgb(39, 39, 39);
-    margin-left: 180px;
-}
-
-.raboti {
-    position: sticky;
-    top: 15px;
-    margin-left: 820px ;
-    margin-top: 700px;
-    z-index: 0;
+    margin-left: 8%;
 }
 
 h3 {
     font-family: "Unbounded-regular";
-    color: #ffffff;
-    font-size: 50px;
-    margin-left: 250px;
-    margin-top: 400px;
+    color: #39B81A;
+    font-size: 43px;
+    margin-top: 20px;
     text-align: center;
+    width: 85%;
+}
+.i3 {
+ margin-left: 63%;
+ margin-top: 350px;
+} 
+
+h6 {
+    margin-left: -10%;
+    font-size: 30px;
+    font-family: "Inter";
+    color: #39B81A;
+}
+
+.p5 {
+    margin-top: 0.7%;
+ font-size: 22px;
+    font-family: "Inter";
+    color: #ffffff;
+}
+
+.text5 {
+ margin-top: -95px;
+margin-left: 25%;
+}
+
+
+.i4 {
+ margin-left: 100px;
+ margin-top: -49%;
+} 
+
+h7 {
+    margin-left: 6%;
+    font-size: 30px;
+    font-family: "Inter";
+    color: #39B81A;
+}
+.p6 {
+    margin-top: 0.5%;
+ font-size: 22px;
+    font-family: "Inter";
+    color: #ffffff;
+}
+
+.text6 {
+ margin-top: -100px;
+margin-left: 10%;
+}
+
+h8 {
+    font-size: 56px;
+    font-family: "Unbounded-regular";
+    margin-left: 20%;
 }
 
 .ot_spori{
     color: #ffffff;
     font-size: 20px;
     margin-top: 15px;
-    margin-left: 770px;
-    margin-right: 200px;
+    margin-left: 45%;
     font-family: "Inter";
-}
+} 
 
-/* .meow {
-    width: 1440px;
+.v4 {
+    margin-top: 35%;
+      width: 1440px;
     position: relative;
+    margin-top: 400px;
     z-index: 1;
     background-color: rgb(39, 39, 39);
-} */
-
-.shtuchki {
-    width: 92px;
-    height: 400px;
-
 }
 
-.img163 {
-    margin: 0 ;
-    width: 453px;
-    height: 535px;   
+.k1 {
+margin-top: 10%;
+margin-left: 5%;
+}
+h1{ 
+font-size: 64px;
+color: #39B81A;
+font-family: "Unbounded-regular";
+margin-top: -15%;
+}
+.p7{
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 15%;
+    font-family: "Inter";
+    width: 64%;
+}
+.class_img1 {
+   opacity: 75%;
 }
 
-.img164 {
-    margin: 0;
-    width: 453px;
-    height: 535px;
+.l1 {
+    margin-top: -10%;
+    position: absolute;
+ margin-left: 3%;
+}
+.k2 {
+margin-top: -19%;
+margin-left: 65%;
 }
 
-.kartinki{
-    display: flex;
-    justify-content: center;
-    gap: 335px;
-    align-items: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 100px;
-
+.l2 {
+    margin-top: -16%;
+    position: absolute;
+ margin-left: 3%;
+}
+.p9{
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 20%;
+    font-family: "Inter";
+    width: 80%;
 }
 
-.first_section{
-    width: 100%;
+.h9{ 
+font-size: 64px;
+color: #39B81A;
+font-family: "Unbounded-regular";
 }
 
-.classforimg2 {
-    margin-left: 50px ;
-    margin-right: 180px;
-    width: 453px;
-    height: 535px;  
+.k3 {
+margin-top: 5%;
+margin-left: 5%;
 }
 
-.classforimg1 { 
-
-    margin-right: 20px;
-    width: 453px;
-    height: 535px;
-}
-.kartinki2{
-    display: flex;
-    justify-content: flex-end;
+.l3 {
+    margin-top: -7%;
+    position: absolute;
+ margin-left: 3%;
 }
 
-.second_section{
-    width: 100%;
-    margin-top: 300px;
+.p8{
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 10%;
+    font-family: "Inter";
+    width: 60%;
+}
+.k4 {
+margin-top: -18.9%;
+margin-left: 53.67%;
+}
+.l4 {
+    margin-top: -7%;
+    position: absolute;
+ margin-left: 3%;
+}
+.o5 {
+   display: flex;
+   justify-content: space-between;
 }
