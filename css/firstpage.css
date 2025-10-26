@@ -133,12 +133,11 @@ background-color: rgb(39, 39, 39);
     color: #ffffff;
 }
 
-/* .text3 {
-    position: relative;
-z-index: 2;
-margin-left: 5%;
-margin-top: 10%;
-} */
+.text3 {
+text-align: center;
+line-height: normal;
+margin-top: -25%;
+}
 
 
 .h2 {
@@ -152,18 +151,17 @@ margin-top: 10%;
     color: #ffffff;
 }
 
-/* .text4 {
-position: relative;
-z-index: 2;
-margin-left: 5%;
-margin-top: 10%;
-} */
+.text4 {
+    text-align: center;
+    margin-top: -25%;
+    line-height: normal;
+}
 
 .v3 {
-    margin-left: -13%;
+margin-left: 37%;
     font-family: "Inter";
     font-size: 30px;
-    text-align: center;
+
 }
 
 .v2 {
@@ -174,6 +172,8 @@ margin-top: 10%;
     z-index: 1;
     background-color: rgb(39, 39, 39);
     margin-left: 8%;
+    display: grid;
+    justify-content: center;
 }
 
 h3 {
@@ -184,102 +184,87 @@ h3 {
     text-align: center;
     width: 85%;
 }
-/* .i3 {
- margin-left: 63%;
- margin-top: 350px;
-}  */
 
 h6 {
-    margin-left: -10%;
     font-size: 30px;
     font-family: "Inter";
     color: #39B81A;
 }
 
 .p5 {
-    margin-top: 0.7%;
- font-size: 22px;
+    font-size: 22px;
     font-family: "Inter";
     color: #ffffff;
 }
 
 .text5 {
- margin-top: -95px;
-margin-left: 25%;
+    margin-top: -100px;
+    text-align: center;
+    line-height: normal;
 }
 
 
-/* .i4 {
- margin-left: 100px;
- margin-top: -49%;
-}  */
-
 h7 {
-    margin-left: 6%;
     font-size: 30px;
     font-family: "Inter";
     color: #39B81A;
 }
 .p6 {
-    margin-top: 0.5%;
- font-size: 22px;
+    font-size: 22px;
     font-family: "Inter";
     color: #ffffff;
 }
 
 .text6 {
- margin-top: -100px;
-margin-left: 10%;
+    margin-top: -100px;
+    text-align: center;
+    line-height: normal;
 }
 
 h8 {
     font-size: 56px;
     font-family: "Unbounded-regular";
-    margin-left: 20%;
+    color: white;
 }
 
 .ot_spori{
     color: #ffffff;
     font-size: 20px;
     margin-top: 15px;
-    margin-left: 45%;
     font-family: "Inter";
 } 
 
 .v4 {
+    text-align: center;
     margin-top: 35%;
-      width: 1440px;
+    width: 1440px;
     position: relative;
-    margin-top: 400px;
     z-index: 1;
     background-color: rgb(39, 39, 39);
 }
 
-
-.a2 {
-    display: flex;
-    justify-content: space-between;
-}
-
-.a3 {
-    display: flex;
-    justify-content: space-between;
-}
-
-.square1 {
+.square1{
+    position: relative;
     width: 447px;
     height: 269px;
     background-color: rgba(rgb(255, 4, 4), green, blue, alpha);
 }
-.square2 {
+.square2{
+    position: relative;
     width: 447px;
     height: 269px;
     background-color: rgba(rgb(212, 0, 0), green, blue, alpha);
 }
+.square3{
+    position: relative;
+    width: 447px;
+    height: 269px;
+    color: #ffffff;
+}
 .z1{
     display: flex;
     justify-content: space-between;
-  margin-right: 5%;
+    margin-right: 5%;
     margin-left: 5%;
     margin-top: 10%;
 }
