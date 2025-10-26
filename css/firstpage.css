@@ -243,36 +243,39 @@ h8 {
 } 
 
 .square1{
-    margin-left: 12%;
     position: relative;
     width: 447px;
     height: 269px;
     background-color: rgba(79, 79, 79, 0.75);
+    border-radius: 10px;
 }
 .square2{
-    margin-left: -10%;
     position: relative;
     width: 447px;
     height: 269px;
     background-color: rgba(79, 79, 79, 0.75);
+    border-radius: 10px;
 }
 .square3{
     position: relative;
     width: 610px;
     height: 269px;
     background-color: rgba(79, 79, 79, 0.75);
+    border-radius: 10px;
 }
 .square4{
     position: relative;
     width: 610px;
     height: 269px;
     background-color: rgba(79, 79, 79, 0.75);
+    border-radius: 10px;
 }
 .square5{
     position: relative;
     width: 1240px;
     height: 269px;
     background-color: rgba(79, 79, 79, 0.75);
+    border-radius: 10px;
 }
 .z1{
     display: flex;
@@ -289,24 +292,208 @@ h8 {
     margin-top: 30%;
 }
 
-.IZV {
-    position: absolute;
-    z-index: -1;
-margin-left: -70%;
-}
-
 .a2 {
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 2%;
     display: flex;
     justify-content: space-between;
 }
 .a3 {
+    margin-left: 7%;
+    margin-right: 7%;
     display: flex;
     justify-content: space-between;
-    margin-top: 4%;
+    margin-top: 2%;
 }
 .a4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 0%;
+    margin-top: 2%;
+}
+
+h2 {
+    margin-top: 34px;
+    margin-left: -25%;
+    font-family: "Unbounded-regular";
+    font-size: 64px;
+    color: #19CC33;
+}
+
+.txt1 {
+    margin-top: 20%;
+    margin-left: 40px;
+    font-size: 24px;
+    font-family: "Inter-Regular";
+    color: #ffffff;
+    width: 80%;
+    text-align: left;
+}
+
+h4 {
+ margin-top: 34px;
+    margin-left: -40%;
+    font-family: "Unbounded-regular";
+    font-size: 64px;
+    color: #19CC33;
+}
+
+.txt2 {
+    margin-top: 15%;
+    margin-left: 40px;
+    font-size: 24px;
+    font-family: "Inter-Regular";
+    color: #ffffff;
+    width: 90%;
+    text-align: left;
+}
+.txt2_1 {
+    margin-top: 15%;
+    margin-left: 40px;
+    font-size: 24px;
+    font-family: "Inter-Regular";
+    color: #ffffff;
+    width: 60%;
+    text-align: left;
+}
+
+h5 {
+    margin-top: 34px;
+    font-family: "Unbounded-regular";
+    font-size: 64px;
+    color: #19CC33;
+}
+
+.txt3 {
+    margin-top: 5%;
+    margin-left: 22%;
+    font-size: 24px;
+    font-family: "Inter-Regular";
+    color: #ffffff;
+    width: 55%;
+    text-align: center;
+}
+
+.txt4{
+    font-size: 24px;
+    font-family: "Inter-Regular";
+    color: #ffffff;
+    width: 40%;
+    text-align: left;
+    margin-top: 470px;
+    margin-left: 25%;
+}
+.txt5 {
+    font-size: 43px;
+    font-family: "Unbounded-regular";
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    text-align: center;
+    color: #19CC33;
+    margin-left: 15%;
+    margin-top: 9%;
+}
+
+.IZV {
+    position: absolute;
+    z-index: -1;
+    margin-left: -800px;
+}
+
+.c1 {
+    color: #19CC33;
+}
+
+.t1 {
+    font-size: 24px;
+    font-family: "Inter-Regular";
+    color: #ffffff;
+}
+.t2 {
+    font-family: "Unbounded-regular";
+    font-size: 56px;
+    color: #19CC33;
+}
+
+.T3 {
+    position: absolute;
+    z-index: 1;
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 40%;
+}
+
+.l1 {
+    margin-top: 60%;
+}
+
+.l2 {
+    display: flex;
+    justify-content: space-around;
+}
+.l3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.pod {
+    width: 100%;
+    height: 351px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    z-index: 0;
+    margin-top: -5%;
+}
+
+.pov {
+    margin-top: -10%;
+}
+
+.d2 {
+    margin-top: 15%;
+}
+
+.d1 {
+    margin-top: 30%;
+}
+
+.g1 {
+    position: absolute;
+    z-index: 2;
+    margin-top: -3.5%;
+}
+
+.f1 {
+    font-size: 41px;
+    font-family: "Inter-Regular";
+    color: #ffffff;
+    position: absolute;
+    z-index: 1;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.f2 {
+    font-size: 41px;
+    font-family: "Inter-Regular";
+    color: #ffffff;
+    position: absolute;
+    z-index: 1;
+    margin-top: 13%;
+    margin-left: 5%;
+}
+
+.f3 {
+    font-size: 41px;
+    font-family: "Inter-Regular";
+    color: #ffffff;
+    position: absolute;
+    z-index: 1;
+    margin-top: 25%;
+    margin-left: 80% ;
+
 }
