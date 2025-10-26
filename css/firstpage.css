@@ -221,19 +221,6 @@ h7 {
     line-height: normal;
 }
 
-h8 {
-    font-size: 56px;
-    font-family: "Unbounded-regular";
-    color: white;
-}
-
-.ot_spori{
-    color: #ffffff;
-    font-size: 20px;
-    margin-top: 15px;
-    font-family: "Inter";
-} 
-
 .v4 {
     text-align: center;
     margin-top: 35%;
@@ -243,23 +230,49 @@ h8 {
     background-color: rgb(39, 39, 39);
 }
 
+h8 {
+    font-size: 56px;
+    font-family: "Unbounded-regular";
+    color: white;
+}
+.ot_spori{
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 15px;
+    font-family: "Inter";
+} 
+
 .square1{
+    margin-left: 12%;
     position: relative;
     width: 447px;
     height: 269px;
-    background-color: rgba(rgb(255, 4, 4), green, blue, alpha);
+    background-color: rgba(79, 79, 79, 0.75);
 }
 .square2{
+    margin-left: -10%;
     position: relative;
     width: 447px;
     height: 269px;
-    background-color: rgba(rgb(212, 0, 0), green, blue, alpha);
+    background-color: rgba(79, 79, 79, 0.75);
 }
 .square3{
     position: relative;
-    width: 447px;
+    width: 610px;
     height: 269px;
-    color: #ffffff;
+    background-color: rgba(79, 79, 79, 0.75);
+}
+.square4{
+    position: relative;
+    width: 610px;
+    height: 269px;
+    background-color: rgba(79, 79, 79, 0.75);
+}
+.square5{
+    position: relative;
+    width: 1240px;
+    height: 269px;
+    background-color: rgba(79, 79, 79, 0.75);
 }
 .z1{
     display: flex;
@@ -274,4 +287,26 @@ h8 {
     margin-right: 5%;
     margin-left: 5%;
     margin-top: 30%;
+}
+
+.IZV {
+    position: absolute;
+    z-index: -1;
+margin-left: -70%;
+}
+
+.a2 {
+    display: flex;
+    justify-content: space-between;
+}
+.a3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+.a4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0%;
 }
