@@ -119,51 +119,45 @@ background-color: rgb(39, 39, 39);
     margin-left: 70%;
 }
 
-.i1 {
- margin-left: 100px;
- margin-top: 200px;
-} 
+
 
 .h1 {
-    margin-left: 4%;
     font-size: 30px;
     font-family: "Inter";
     color: #39B81A;
 }
+
 .p3 {
-    margin-top: 0.5%;
- font-size: 22px;
+    font-size: 22px;
     font-family: "Inter";
     color: #ffffff;
 }
 
-.text3 {
- margin-top: -100px;
-margin-left: 6%;
-}
+/* .text3 {
+    position: relative;
+z-index: 2;
+margin-left: 5%;
+margin-top: 10%;
+} */
 
-.i2 {
- margin-left: 63%;
- margin-top: -705px;
-} 
 
 .h2 {
-    margin-left: 6.5%;
     font-size: 30px;
     font-family: "Inter";
     color: #39B81A;
 }
 .p4 {
-    margin-top: 0.7%;
  font-size: 22px;
     font-family: "Inter";
     color: #ffffff;
 }
 
-.text4 {
- margin-top: -95px;
-margin-left: 67%;
-}
+/* .text4 {
+position: relative;
+z-index: 2;
+margin-left: 5%;
+margin-top: 10%;
+} */
 
 .v3 {
     margin-left: -13%;
@@ -190,10 +184,10 @@ h3 {
     text-align: center;
     width: 85%;
 }
-.i3 {
+/* .i3 {
  margin-left: 63%;
  margin-top: 350px;
-} 
+}  */
 
 h6 {
     margin-left: -10%;
@@ -215,10 +209,10 @@ margin-left: 25%;
 }
 
 
-.i4 {
+/* .i4 {
  margin-left: 100px;
  margin-top: -49%;
-} 
+}  */
 
 h7 {
     margin-left: 6%;
@@ -261,37 +255,37 @@ h8 {
     background-color: rgb(39, 39, 39);
 }
 
-.a1{
+/* .a1{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} */
 
-.a2 {
+/* .a2 {
     width: 86%;
     display: flex;
     justify-content: space-between;
-    /* margin-left: 5%;
-    margin-right: 5%; */
-}
+    margin-left: 5%;
+    margin-right: 5%;
+} */
 
-.a3 {
+/* .a3 {
     display: flex;
     justify-content: center;
-    /* gap: 20px;
+    gap: 20px;
     width: 90%;
-    margin-left: 7%; */
-}
+    margin-left: 7%;
+} */
 
 .k4 {
     margin-left: 0%;
 }
 
-.a4 {
-    /* margin-left: 7%;
-    margin-right: 5%; */
+/* .a4 {
+    margin-left: 7%;
+    margin-right: 5%;
     margin-top: 2%;
-}
+} */
 
 .class_img1 {
    opacity: 75%;
@@ -306,4 +300,18 @@ h8 {
     width: 447px;
     height: 269px;
     background-color: rgba(rgb(212, 0, 0), green, blue, alpha);
+}
+.z1{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.z2{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 30%;
 }
