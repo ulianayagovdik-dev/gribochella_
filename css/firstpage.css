@@ -232,27 +232,18 @@ h7 {
 
 .v4 {
     text-align: center;
-    margin-top: 35%;
     width: 1440px;
     position: relative;
     z-index: 1;
     background-color: rgb(39, 39, 39);
+    margin: 300px auto;
 }
 
 .g2 {
     display:flex;
     flex-direction: column;
-     align-items: center;
-     margin-left: 20%;
+    align-items: center;
 }
-
-/* .f5 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: 0 auto;
-    width: 100%;
-} */
 
 h8 {
     font-size: 56px;
@@ -462,12 +453,14 @@ h5 {
 }
 
 .pod {
-    width: 100%;
+    width: 200%;
     height: 351px;
     background-color: rgb(0, 0, 0);
     position: absolute;
     z-index: 0;
     margin-top: -5%;
+    display: flex;
+    justify-content: center;
 }
 
 .pov {
