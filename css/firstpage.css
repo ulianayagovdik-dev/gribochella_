@@ -461,6 +461,7 @@ h5 {
     margin-top: -5%;
     display: flex;
     justify-content: center;
+    margin-left: -15%;
 }
 
 .pov {
@@ -478,7 +479,10 @@ h5 {
 .g1 {
     position: absolute;
     z-index: 2;
-    margin-top: -3.5%;
+    margin-top: -7%;
+    display: flex;
+    justify-content: center;
+    Width: 90vw;
 }
 
 .f1 {
